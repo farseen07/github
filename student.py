@@ -9,3 +9,10 @@ class Student:
 
     def is_passing(self):
         return self.grade >= 60
+    class teacher:
+        def __init__(self, name, subject):
+            self.name = name
+            self.subject = subject
+
+        def get_info(self):
+            return f"Teacher Name: {self.name}, Subject: {self.subject}"
